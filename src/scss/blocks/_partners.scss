@@ -1,0 +1,41 @@
+.partners {
+    padding: 60px 0;
+    
+
+    &__title-text {
+        font-size: 24px;
+
+        @media (max-width: 975px) {
+            text-align: center;
+        }
+    }
+
+    &__row {
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (max-width: 975px) {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+    }
+
+    &-content {
+        align-items: center;
+        display: flex;
+        gap: 32px;
+        
+        flex-wrap: wrap;
+
+        @media (max-width: 1250px) {
+            gap: 10px;
+        }
+
+        @media (max-width: 975px) {
+            justify-content: space-between;
+        }
+    }
+}

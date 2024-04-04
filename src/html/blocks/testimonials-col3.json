@@ -1,0 +1,34 @@
+[
+
+    {
+        "stars": 4,
+        "text": "The detailed travel guides provided by this website were invaluable during our journey. We felt confident exploring a new destination, thanks to their helpful tips and insights. erat.",
+        "name": "Jake Pau",
+        "role": "Travel Enthusiast",
+        "img": "03.jpg"
+    },
+
+    {
+        "stars": 5,
+        "text": "Amazing experience! The travel website made booking our vacation a breeze. Everything was well-organized, and we had a fantastic time exploring new places. Highly recommend",
+        "name": "Nichole Edward",
+        "role": "Travel Enthusiast",
+        "img": "04.jpg"
+    },
+
+    {
+        "stars": 5,
+        "text": "Hands down the best travel website I've ever used! The user interface was so intuitive, and I was able to book my dream vacation effortlessly. erat",
+        "name": "Name Surname",
+        "role": "Travel Enthusiast",
+        "img": "06.jpg"
+    },
+
+    {
+        "stars": 5,
+        "text": "A one-stop-shop for all things travel! The website's variety of travel options and user reviews helped me make informed decisions and ensured a smooth trip",
+        "name": "Bambang Susilo",
+        "role": "Travel Enthusiast",
+        "img": "09.jpg"
+    }
+]

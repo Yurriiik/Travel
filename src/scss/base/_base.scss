@@ -1,0 +1,32 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+    font-family: var(--font-main);
+}
+
+.text {
+	color: #909090;
+	font-size: 18px;
+	font-style: normal;
+	margin-top: 0;
+	font-family: "Circular Std",sans-serif;
+	font-weight: 400;
+}
+
+.title {
+	color: #181818;
+	font-size: 40px;
+	font-family: "Circular Std",sans-serif;
+	font-weight: 500;
+}
+
+.footer-text {
+	color: #fff;
+	font-size: 16px;
+	font-family: "Circular Std",sans-serif;
+	font-weight: 400;
+}

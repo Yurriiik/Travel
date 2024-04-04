@@ -1,0 +1,44 @@
+.header {
+	padding: 16px 0;
+
+	&-logo {
+		flex-shrink: 0;
+	}
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 32px;
+
+	@media (max-width: 900px) {
+		gap: 15px;
+	}
+
+	&-list {
+		display: flex;
+		justify-content: space-between;
+		gap: 24px;
+
+		a {
+			color: #181818;
+			transition: color 0.2s ease-in;
+		
+			&:hover, &.active {
+				color: #35AFF4;
+			}
+		}
+		@media (max-width: 700px) {
+			display: none;
+		}
+
+	}
+
+	&__buttons {
+		display: flex;
+		gap: 12px;
+	}
+
+}
+

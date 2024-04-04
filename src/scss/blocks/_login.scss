@@ -1,0 +1,75 @@
+.login {
+
+    
+    &-content {
+        border-radius: 15px;
+        width: 500px;
+        height: 350px;
+        border: 2px solid #909090;
+        padding: 20px;
+        text-align: center;
+        margin: 20% auto 0; /* Відступ зверху 40%, центрування по горизонталі */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Центрування вмісту вздовж вертикалі */
+        gap: 20px;
+
+        @media (max-width: 560px) {
+            width: 400px;
+        }
+
+        @media (max-width: 425px) {
+            width: 290px;
+        }
+    }
+
+    &-form {
+        display: grid;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    &-input {
+        padding: 10px;
+        width: 350px;
+        height: 50px;
+        border: 1px solid #181818;
+        border-radius: 10px;
+
+        &:hover {
+            color: #35AFF4;
+            border: 2px solid #35AFF4;
+        }
+
+        @media (max-width: 425px) {
+            width: 260px;
+        }
+    }
+
+    &-text {
+        a {
+            text-decoration: none;
+            color: #35AFF4;
+            transition: 0.3s;
+
+            &:hover {
+                color: #181818;
+            }
+        }
+    }
+
+    &-button {
+        padding: 10px 12px;
+        border: 2px solid #35AFF4;
+        width: 150px;
+        border-radius: 15px;
+        font-size: 20px;
+        color: #181818;
+        transition: 0.3s;
+        
+        &:hover {
+            background-color: #35AFF4;
+            color: white;
+        }
+    }
+}

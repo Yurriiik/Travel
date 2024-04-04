@@ -1,0 +1,121 @@
+.subscrite {
+    background-color: #35aff4;
+    padding: 80px 0;
+    overflow: hidden;
+
+    &-row {
+        padding-left: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+
+
+
+        position: relative;
+
+        &::before {
+            content: '';
+
+            position: absolute;
+            left: -80px;
+            top: -110px;
+            width: 236px;
+            height: 273px;
+
+            background-image: url('./../../img/subscribe/subscribe-pin-bg.svg');
+            background-repeat: no-repeat;
+
+            
+        @media (max-width: 1024px) {
+            top: -60px;
+        }
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+
+        }
+
+        @media (max-width: 1024px) {
+            padding-left: 50px;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        @media (max-width: 768px) {
+            padding-left: 0;
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+        }
+    }
+
+    &-desc {
+        display: grid;
+        gap: 4px;
+    }
+
+    &-title {
+        color: #fff;
+        font-size: 28px;
+        text-align: left;
+        font-family: "Circular Std",sans-serif;
+        font-weight: 500;
+
+        @media (max-width: 1024px) {
+            text-align: center;
+        }
+    }
+
+    &-text {
+        color: #f0f0f0;
+        font-size: 20px;
+        text-align: left;
+        font-family: "Circular Std",sans-serif;
+        font-weight: 400;
+
+        @media (max-width: 1024px) {
+            text-align: center;
+        }
+    }
+
+    &__form {
+        display: flex;
+        gap: 12px;
+        flex-grow: 1;
+        min-width: 400px;
+
+        @media (max-width: 425px) {
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            min-width: unset;
+        }
+    }
+
+    &__form-input {
+        flex-grow: 1;
+        padding: 12px;
+        padding-left: 44px;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 8px;
+        height: 48px;
+
+        color: #909090;
+        font-size: 14px;
+        text-align: left;
+        font-family: "Circular Std",sans-serif;
+        font-weight: 400;
+
+        background-image: url('./../../img/icons/email.svg');
+        background-repeat: no-repeat;
+        background-position: 12px 12px;
+        background-size: auto;
+
+        &::placeholder {
+            color: #909090;
+        }
+    }
+}
